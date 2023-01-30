@@ -1,0 +1,11 @@
+str1="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+row=int(input("Enter the no. of rows"))
+num=(row*(row+1))/2
+num1=int(num/(len(str1)))+1
+str2=str1*num1
+i=0
+j=0
+while(j<row):
+    print(str2[i:i+j+1])
+    j=j+1
+    i=i+j
